@@ -6,5 +6,5 @@ outputs = ['HTML']
 [params]
   private = true
 +++
-![Alogolia Search Logo](../images/logos/Algolia-logo-blue.png)
+![Alogolia Search Logo](/images/logos/Algolia-logo-blue.png)
 {{< search >}}{{< /search >}}
