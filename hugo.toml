@@ -38,3 +38,29 @@ path = 'github.com/thingsym/hugo-theme-techdoc'
         url = "/"
         weight = 1
         identifier = 'home'
+
+[outputs]
+    home = ["HTML", "RSS", "Algolia"]
+
+[outputFormats.Algolia]
+    baseName = "algolia"
+    mediaType = "application/json"
+    isPlainText = true
+    notAlternative = true
+
+[params.algolia]
+    vars = [
+        "title",
+        "summary",
+        "content",
+        "date",
+        "publishdate",
+        "description",
+        "permalink",
+        "keywords",
+        "lastmod",
+    ]
+    params = [
+        "tags",
+        "categories",
+    ]
