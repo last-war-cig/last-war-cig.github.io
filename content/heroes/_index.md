@@ -5,4 +5,4 @@ title = 'Heroes'
 weight = 9
 +++
 
-# Heroes
+# How to build a hero squad

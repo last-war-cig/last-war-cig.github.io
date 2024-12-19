@@ -9,9 +9,9 @@ path = 'github.com/thingsym/hugo-theme-techdoc'
 [params]
 
     # Source Code repository section
-    description = "Foo"
+    description = "Really, we mean it!"
     github_repository = "https://github.com/last-war-cig/website"
-    version = "1.0.1"
+    version = "0.0.1-pre"
     menu_style = "slide-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
     menu_exclusion = [
         "archives",
@@ -21,6 +21,15 @@ path = 'github.com/thingsym/hugo-theme-techdoc'
         "post",
         "posts",
     ]
+
+    github_doc_repository = "https://github.com/last-war-cig/website"
+    github_doc_repository_branch = "main"
+    github_doc_repository_path = "content"
+    
+    algolia_search_enable = true
+    algolia_indexName = "hugo-demo-techdoc"
+    algolia_appId = "7W4SAN4PLK"
+    algolia_apiKey = "cbf12a63ff72d9c5dc0c10c195cf9128" # Search-Only API Key
 # Global menu section
 # See https://gohugo.io/content-management/menus/
 [menu]
@@ -29,13 +38,3 @@ path = 'github.com/thingsym/hugo-theme-techdoc'
         url = "/"
         weight = 1
         identifier = 'home'
-
-    [[menu.main]]
-        name = "Twitter"
-        url = "https://twitter.com/thingsym"
-        weight = 2
-        identifier = 'twitter'
-        pre = "<b>pre!</b> "
-        post = " <b>post!</b>"
-        [menu.main.params]
-          class = 'twitter-menu-item'
