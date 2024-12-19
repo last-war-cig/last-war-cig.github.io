@@ -6,3 +6,5 @@ description = 'Text about this post'
 +++
 
 # Welcome to the Complete Idiot's Guide to Last War
+
+{{ < search >}}
