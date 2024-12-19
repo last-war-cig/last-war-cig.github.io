@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://last-war-cig.github.io/website/'
 languageCode = 'en-us'
 title = "Complete Idiot's Guide to Last War"
 [module]
@@ -27,7 +27,7 @@ path = 'github.com/thingsym/hugo-theme-techdoc'
     github_doc_repository_path = "content"
     
     algolia_search_enable = true
-    algolia_indexName = "last_war_cig_github_io_41tt3h6jjx_pages"
+    algolia_indexName = "base"
     algolia_appId = "41TT3H6JJX"
     algolia_apiKey = "ecd306d57fe86f556dabba96852595d3" # Search-Only API Key
 # Global menu section
