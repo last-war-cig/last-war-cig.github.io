@@ -38,6 +38,10 @@ path = 'github.com/thingsym/hugo-theme-techdoc'
         url = "/"
         weight = 1
         identifier = 'home'
+    [[menu.main]]
+        name = "Search"
+        url = "/search"
+        weight = 1
 
 [outputs]
     home = ["HTML", "RSS", "Algolia"]
