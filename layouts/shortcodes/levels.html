@@ -1,0 +1,14 @@
+    <table style="width:50%">
+      <thead>
+        <th>HQ Level</th>
+        <th>Barracks Level</th>
+        <th>Troop Tier</th>
+      </thead>
+      {{ range $cat,$levels := .Site.Data.base.levels }}
+      <tr>
+        <td>{{ .hq }}</td>
+        <td>{{ .barracks }}</td>
+        <td>{{ .trooptier }}</td>
+      </tr>
+      {{ end }}
+    </table>

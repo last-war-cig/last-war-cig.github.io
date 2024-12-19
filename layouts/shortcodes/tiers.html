@@ -1,0 +1,26 @@
+    <table style="width:50%">
+      <thead>
+        <th>HQ Level</th>
+        <th>Barracks Level</th>
+        <th>Troop Tier</th>
+        <th>Power</th>
+        <th>Morale</th>
+        <th>Troop Load</th>
+        <th>Hero HP</th>
+        <th>Hero Attack</th>
+        <th>Hero Defense</th>
+      </thead>
+      {{ range $cat,$levels := .Site.Data.base.levels }}
+      <tr>
+        <td>{{ .hq }}</td>
+        <td>{{ .barracks }}</td>
+        <td>{{ .trooptier }}</td>
+        <td>{{ .power }}</td>
+        <td>{{ .morale }}</td>
+        <td>{{ .troop_load }}</td>
+        <td>{{ .hero_hp }}</td>
+        <td>{{ .hero_attack }}</td>
+        <td>{{ .hero_defense }}</td>
+      </tr>
+      {{ end }}
+    </table>
