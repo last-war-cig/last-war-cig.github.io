@@ -5,6 +5,8 @@ title = 'Rushing'
 description = 'How to get your base up fast'
 TableOfContents = true
 weight = 20
+[params]
+  author = "ShockwaveRider"
 +++
 
 {{< panel status="warning" title="Note" icon="fas fa-exclamation-triangle">}}
