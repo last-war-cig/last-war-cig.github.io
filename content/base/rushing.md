@@ -4,6 +4,7 @@ draft = false
 title = 'Rushing'
 description = 'How to get your base up fast'
 TableOfContents = true
+weight = 20
 +++
 
 {{< panel status="warning" title="Note" icon="fas fa-exclamation-triangle">}}
