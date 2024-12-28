@@ -22,9 +22,9 @@ If your rally against the Doom Walker does not have the required strength *in ea
 
 | Level | Required Strength in each squad |
 | ----- | ------------------------------- |
-| 100   |                                 |
-| 110   |                                 |
-| 120   |                                 |
+| 100   | 1.4m                            |
+| 110   | 3.3m                            |
+| 120   | 6.7m                            |
 | 130   | 10.757m                         |
 | 140   | 11.715m                         |
 | 150   | 12.715m                         |
