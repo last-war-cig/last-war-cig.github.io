@@ -68,6 +68,8 @@ jobs:
 
   # Deployment job
   deploy:
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -86,4 +88,4 @@ jobs:
       uses: tsickert/discord-webhook@v6.0.0
       with:
         webhook-url: ${{ secrets.WEBHOOK_URL }}
-        content: "Last War Complete Idiot's Guide was updated to version ${{ github.ref_name }}. You can view the changes at ${{ steps.deploy.outputs.page_url }}."
+        content: "Last War Complete Idiot's Guide was updated to version ${{ github.ref_name }}. You can view the changes at ${{ jobs.deploy.outputs.page_url }}."
