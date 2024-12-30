@@ -55,7 +55,8 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          TZ: America/Los_Angeles
+          TZ: Europe/Berlin
+          HUGO_PARAMS.version: ${{ github.ref_name }}
         run: |
           hugo \
             --gc \
