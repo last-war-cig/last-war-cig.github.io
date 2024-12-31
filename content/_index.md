@@ -1,8 +1,10 @@
 +++
-date = '2024-12-19T13:35:48+01:00'
+date = "2024-12-31T12:00:15.132Z"
 draft = false
 title = "Compete idiot's Guide to Last War"
-description = 'Text about this post'
+description = "A website to help you getting to level fast and efficient in the Last War strategy game without spending a fortune."
 +++
 
-Hello
+Hello and Welcome to the Complete Idiot's Guide to Last War!
+
+No offense -  we wrote this for us first and foremost. ;)
