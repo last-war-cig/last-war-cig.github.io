@@ -10,6 +10,9 @@
     "ghcr.io/devcontainers/features/hugo:1": {
       "extended": true
     },
+    "ghcr.io/devcontainers/features/go: 1": {
+      "version": "1.23.4"
+    },
     "ghcr.io/devcontainers-contrib/features/actionlint:1": {},
     "ghcr.io/devcontainers-contrib/features/gh-cli:1": {}
   },
