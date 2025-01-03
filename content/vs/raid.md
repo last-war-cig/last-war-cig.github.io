@@ -85,3 +85,7 @@ To safely return home after a raid, follow this procedure:
 3. Put up a shield.
 4. Jump to the enemy's server
 5. Jump back to your hive.
+
+## Video
+
+{{< youtube MiEHM_JQyPw >}}
