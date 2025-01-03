@@ -49,6 +49,11 @@ path = 'github.com/thingsym/hugo-theme-techdoc'
         name = "Search"
         url = "/search"
         weight = 1
+    [[menu.main]]
+        name = "Janisary1's Youtube Channel"
+        url = "https://www.youtube.com/@Janisary1"
+        weight = 2
+        identifier = 'youtube'
 
 [outputs]
     home = ["HTML", "RSS", "Algolia"]
