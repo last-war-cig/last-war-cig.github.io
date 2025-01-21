@@ -2,7 +2,7 @@ baseURL = 'https://last-war-cig.github.io/'
 languageCode = 'en-us'
 title = "Complete Idiot's Guide to Last War"
 ignoreLogs = ['warning-goldmark-raw-html']
-
+custom_css = ["styles.css"]
 [taxonomies]
   category = 'categories'
   tag = 'tags'

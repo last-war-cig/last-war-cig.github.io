@@ -15,6 +15,13 @@ Do not deviate unless you know what you are doing!
 
 You want to bring your HQ to certain levels in order to unlock troop tiers available in those levels. Higher troop tiers provide a serious advantage during combat when compare to lower troops tiers.
 
+## Overview
+
+{{< figure src="/images/base/rushing/87971cbc-c197-4242-abc8-30322f785d99.jpg" alt="Base rushing overview" width="50%" >}}
+
+
+## Requirements
+
 {{< levels "base/levels.yaml" >}}
 
 ## Procedure
